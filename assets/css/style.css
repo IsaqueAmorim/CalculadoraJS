@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #aaa;
+    box-sizing: border-box;
+}
+.container{
+    width: 412px;
+    height: 520px;
+    background-color: #303030;
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: 0px 15px 25px #575757;
+   
+}
+.container .display{
+    width: 350px;
+    height: 150px;
+    background-color: #303030;
+    color: #fff;
+    font-size: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 20px;
+    text-align: end;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    overflow: hidden;
+    border-top-left-radius:20px ;
+    border-top-right-radius:20px ;
+}
+
+.line1 button,.line2 button,.line3 button,.line4 button{
+    width: 100px;
+    height: 90px;
+   
+}
+.button{
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.352);
+    border: none;
+    margin: 2px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#fff;
+    font-size: 30px;
+    font-weight: 400;
+    
+    
+    
+}
+button:hover{
+    background-color: rgba(255, 255, 255, 0.687);
+}
+.teclado{
+    margin-top:-5px ;
+}
+.line1 :nth-child(4),.line2 :nth-child(4),.line1 :nth-child(4),.line3 :nth-child(4),.line4 :nth-child(4){
+    background-color: #ffae00;
+}
+.line1 :nth-child(4):hover,.line2 :nth-child(4):hover,.line1 :nth-child(4):hover,.line3 :nth-child(4):hover,.line4 :nth-child(4):hover{
+    background-color: #ffc549;
+}
+.line4 :nth-child(1) {
+    border-bottom-left-radius: 15px;
+}
+.line4 :nth-child(4){
+    border-bottom-right-radius: 15px;
+}
